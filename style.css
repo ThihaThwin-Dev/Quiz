@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+.header {
+    display: flex;
+}
+.main {
+    position: relative;
+}
+.btnstart {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.btnstop {
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.activeStart {
+    background-color: rgb(122, 201, 122);
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.inactiveStart {
+    background-color: gray;
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.activeStop {
+    background-color: red;
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.inactiveStop {
+    background-color: gray;
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+}
+.grid {
+    margin: auto;
+    border: 2px black solid;
+    border-spacing: 40px;
+}
+.cell {
+    color: white;
+    width: 120px;
+    height: 200px;
+    border-radius: 25px;
+    border: 2px black solid;
+    text-align: center;
+}
+.body p {
+    text-align: center;
+}
+.grid td {
+    color: black;
+    text-align: center;
+}
+#history {
+    font-size: 35px;
+    color: blue;
+}
+
+@font-face {
+    font-family: pixel;
+    src: url(./fonts/PublicPixel-z84yD.ttf);
+}

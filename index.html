@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <button id="startbtn" onclick="start()" class="btnstart activeStart">Start</button>
+        <button id="stopbtn" onclick="stop()" class="btnstop inactiveStop">Stop</button>
+    </div>
+    <div class="main">
+        <span class="score">
+            Score : <span id="scoreBoard"></span>
+        </span>
+    </div>
+    <div id="body">
+        <p>What is <span id="randomNo"> </span>?</p>
+        <table class="grid">
+            <tr>
+                <td id="firstcell" class="cell" onclick="answerPress(this)"></td>
+                <td id="secondcell" class="cell" onclick="answerPress(this)"></td>
+                <td id="thirdcell" class="cell" onclick="answerPress(this)"></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <span class="time">
+            Play Count : <span id="timeplayed"></span>
+        </span>
+    </div>
+    <div class="history">
+        <h1>History</h1>
+        <span id="history"></span>
+    </div>
+    <div class="reset">
+        <button id="resetbtn" onclick="resetAll()">Restart</button>
+    </div>
+
+</body>
+
+</html>
